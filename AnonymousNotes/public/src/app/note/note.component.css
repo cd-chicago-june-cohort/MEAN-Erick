@@ -1,0 +1,20 @@
+#noteContainer{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+#note{
+    display: inline-block;
+    width: 500px;
+}
+#time{
+    display: inline-block;
+    padding-left: 50px;
+    vertical-align: top;
+}
+#notes{
+    height: 450px;
+    overflow: scroll;
+    padding: 20px;
+}

@@ -1,0 +1,15 @@
+<div id="wrapper">
+  <h1>Anonymous Notes</h1>
+  <div id="formContainer">
+    <form (submit)="submitNote()">
+      <label>Note: </label>
+      <input id="noteText" type="text" name="content"
+        required
+        minlength="4"
+        [(ngModel)]="note.content"
+        #content="ngModel">
+      <input id="submit" type="submit" value="Add Note">
+    </form>
+  </div>
+  <app-note [notes]="notes"></app-note>
+</div>
